@@ -6,3 +6,12 @@ Dự án Dashboard cung cấp cho Olist Store cái nhìn tổng quan hơn về t
 - Tối ưu hóa quy trình mua sắm
 - Hỗ trợ điều tra và giảm các loại chi phí trong quá trình bán hàng
 - Cải thiện hiệu quả hoạt động chung
+
+## Một số tính năng chính của Dashboard
+- Thông tin chi tiết dựa trên dữ liệu
+- Số liệu có thể tùy chỉnh theo nhiều chiều
+- Giao diện thân thiện với người dùng
+
+## Công cụ và nguồn dữ liệu
+- Công cụ: Tableau, Python
+- Nguồn dữ liệu: Kaggle (Bộ dữ liệu này bao gồm các cột như ngày, nhà cung cấp, địa điểm hoạt động kinh doanh, danh mục, thời gian ship, loại lỗi,...)

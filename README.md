@@ -1,4 +1,4 @@
-<img width="1380" alt="image" src="https://github.com/user-attachments/assets/bf087508-5a3c-4f6f-9b11-46bcf3b05ecd" /># Sale_and_Performance_dashboard
+# Sale Dashboard
 ## Tổng quan dự án
 Dự án Dashboard cung cấp cho Olist Store cái nhìn tổng quan hơn về tình hình kinh doanh, nắm bắt chính các dữ kiện kinh doanh theo thời gian cũng như các thành phần tác động, đi sâu vào quan sát các yếu tố ảnh hưởng đến sale và chất lượng của việc giao hàng
 - Nắm bắt nhanh chóng các ngành hàng, mặt hàng và vị trí hoạt động kinh doanh

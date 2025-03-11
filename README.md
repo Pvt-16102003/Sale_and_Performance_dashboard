@@ -28,7 +28,7 @@ Dữ liệu được load và tải vào Tableau Public từ các file local sau
 
 ## Phân tích dữ liệu 
 ## Tổng quan
-![Uploading Ảnh màn hình 2025-03-12 lúc 01.01.41.png…]()
+<img width="1380" alt="Ảnh màn hình 2025-03-12 lúc 01 01 41" src="https://github.com/user-attachments/assets/f3ce1b10-1188-4bb4-a775-900c84671c71" />
 
 
 

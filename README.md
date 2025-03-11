@@ -15,3 +15,13 @@ Dự án Dashboard cung cấp cho Olist Store cái nhìn tổng quan hơn về t
 ## Công cụ và nguồn dữ liệu
 - Công cụ: Tableau, Python
 - Nguồn dữ liệu: Kaggle (Bộ dữ liệu này bao gồm các cột như ngày, nhà cung cấp, địa điểm hoạt động kinh doanh, danh mục, thời gian ship, loại lỗi,...)
+
+## Quy trình chuẩn bị dữ liệu
+Dữ liệu được load và tải vào Tableau Public từ các file local sau khi đã thực hiện làm sạch hơn và fill các features cần thiết với python
+
+**Chuẩn hoá:** Dữ liệu được load vào bảng, set up các relationship 
+**Bảng Order:** Ghi nhận các đơn giao dịch, ngày giờ và trạng thái đơn hàng
+**Bảng Order Items:** Thông tin chi tiết hơn về giá trị đơn hàng, các loại chi phí 
+**Bảng Order Customers:** Các dạng thông tin chi tiết hơn về khách hàng
+Một số bảng dim khác: Thông tin sản phẩm, hình thức thanh toán, sellers và địa lý
+

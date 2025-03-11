@@ -24,6 +24,6 @@ Dữ liệu được load và tải vào Tableau Public từ các file local sau
 - **Bảng Order Items:** Thông tin chi tiết hơn về giá trị đơn hàng, các loại chi phí
 - **Bảng Order Customers:** Các dạng thông tin chi tiết hơn về khách hàng
 - **Một số bảng dim khác:** Thông tin sản phẩm, hình thức thanh toán, sellers và địa lý
+![Uploading image.png…](Ảnh màn hình 2025-03-12 lúc 00.52.20)
 
-<img width="1710" alt="image" src="https://github.com/user-attachments/assets/74c2753c-2c95-48cd-830b-9be7c13fd841" />
 

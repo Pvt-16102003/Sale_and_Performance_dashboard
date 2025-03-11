@@ -122,14 +122,70 @@ Dashboard này cung cấp cái nhìn tổng quan về hiệu suất bán hàng t
 - **Các danh mục sản phẩm có giá thấp hơn thường có doanh số cao hơn**, nhưng có một số danh mục giá cao vẫn đạt doanh số tốt (ví dụ: Home Appliances và Computers).
 - **Có thể điều chỉnh chiến lược giá để tối ưu hóa lợi nhuận mà không làm giảm số lượng đơn hàng**.
 
-## Nhận định
+## Shipment Quality Dashboard
+<img width="1381" alt="Ảnh màn hình 2025-03-12 lúc 01 45 45" src="https://github.com/user-attachments/assets/d2b80ed8-4dd1-4316-b057-5be072518a8c" />
 
-- **Sự tăng trưởng doanh số ổn định nhưng có sự sụt giảm vào cuối năm**, có thể cần các chương trình kích cầu để duy trì mức tăng trưởng.
-- **Các danh mục sản phẩm có đóng góp lớn nên được tập trung phát triển**, đặc biệt là **Health & Beauty, Watches & Gifts và Sports & Leisure**.
-- **Các khu vực tiềm năng như RS và PR cần được khai thác mạnh hơn** để tận dụng đà tăng trưởng.
-- **Chiến lược giá có thể tối ưu hơn dựa trên dữ liệu doanh số và giá bán hiển thị**.
+### Mục đích của Dashboard
+
+Dashboard này cung cấp cái nhìn tổng quan về chất lượng giao hàng, giúp người dùng:
+
+- **Theo dõi tổng số đơn hàng và tỷ lệ giao hàng trễ**, đánh giá xu hướng thay đổi theo thời gian.
+- **Phân tích thời gian xử lý đơn hàng trung bình**, từ lúc đặt hàng đến khi duyệt và giao hàng cho khách.
+- **Xác định các danh mục sản phẩm có tỷ lệ giao hàng trễ cao nhất**, hỗ trợ cải thiện quy trình vận chuyển.
+- **Đánh giá tác động của từng bang đến tổng số đơn hàng và tỷ lệ giao hàng chậm**, giúp tối ưu hóa chuỗi cung ứng.
+- **Xem chi tiết từng đơn hàng**, bao gồm thời gian đặt hàng, trạng thái giao hàng, phí vận chuyển và giá trị đơn hàng.
+
+### Số liệu chính
+
+- **Tổng số đơn hàng:** 54.011 (tăng 19,76% so với năm trước)
+- **Thời gian xử lý trung bình:** 25,18 giờ (tăng 1,27%)
+- **Số ngày giao hàng trung bình:** 11,55 ngày (giảm 1,12%)
+- **Tỷ lệ giao hàng trễ:** 10,08% (tăng 69,29%)
+
+### Phân tích xu hướng
+
+### 1. Xu hướng giao hàng theo tháng
+
+- **Biểu đồ xu hướng hàng tháng hiển thị số lượng đơn hàng, thời gian xử lý và tỷ lệ giao hàng trễ**.
+- **Các tháng đầu năm có tỷ lệ giao hàng trễ cao hơn so với các tháng cuối năm**, cho thấy sự thay đổi trong hiệu suất giao hàng theo mùa.
+- **Tháng 2 và tháng 4 có tỷ lệ giao hàng trễ cao nhất**, có thể do ảnh hưởng từ sự gia tăng đột biến trong số lượng đơn hàng hoặc các vấn đề trong chuỗi cung ứng.
+
+### 2. Phân tích theo bang
+
+- **Biểu đồ bản đồ thể hiện số lượng đơn hàng và tỷ lệ giao hàng trễ theo từng bang**.
+- **Các bang có số lượng đơn hàng cao nhất**: SP, MG, RJ, RS.
+- **Những bang có tỷ lệ giao hàng trễ cao nhất**: PE, PA, CE, MA, RN.
+- **Cần tập trung vào các bang có tỷ lệ giao hàng trễ cao để cải thiện quy trình vận chuyển**.
+
+### 3. Phân tích theo danh mục sản phẩm
+
+- **Top 10 danh mục có tỷ lệ giao hàng trễ cao nhất**:
+  1. Home Comfort (43%)
+  2. Fashion Underwear (21%)
+  3. Tablets & Printers (20%)
+  4. Furniture (20%)
+  5. Fashion & Sports (20%)
+  6. Christmas Supplies (18%)
+  7. Audio (14%)
+  8. Office Furniture (12%)
+  9. Computers (12%)
+  10. Garden Tools (12%)
+
+- **Home Comfort có tỷ lệ giao hàng trễ cao nhất (43%)**, cần được xem xét lại quy trình cung ứng và giao hàng.
+- **Các sản phẩm liên quan đến công nghệ và nội thất cũng có tỷ lệ giao hàng trễ cao**, có thể do thời gian sản xuất và vận chuyển kéo dài.
+
+### 4. Chi tiết đơn hàng
+
+- **Danh sách chi tiết các đơn hàng bao gồm mã đơn hàng, ngày đặt, trạng thái giao hàng, phí vận chuyển và giá trị đơn hàng**.
+- **Cho phép phân tích cụ thể từng đơn hàng để xác định nguyên nhân giao hàng trễ**.
+
+### Nhận định
+
+- **Số lượng đơn hàng tăng trưởng nhưng tỷ lệ giao hàng trễ cũng gia tăng**, cần có giải pháp tối ưu hóa logistics.
+- **Các bang như PE, PA, CE có tỷ lệ giao hàng trễ cao nhất**, cần tập trung cải thiện dịch vụ vận chuyển tại đây.
+- **Danh mục Home Comfort có tỷ lệ giao hàng trễ cao nhất**, có thể do quy trình sản xuất hoặc vận chuyển gặp vấn đề.
+- **Các tháng đầu năm có tỷ lệ giao hàng trễ cao hơn**, có thể cần điều chỉnh nguồn lực theo mùa.
+
 
 ## Kết luận
-
-Dashboard này giúp theo dõi hiệu suất bán hàng theo thời gian, xác định các danh mục sản phẩm và khu vực đóng góp cao nhất, từ đó đề xuất chiến lược kinh doanh phù hợp để tối ưu hóa doanh thu và lợi nhuận.
-
+Hiện tại, vẫn còn một số thiếu hụt về thông tin chi tiết, chẳng hạn như nguyên nhân cụ thể của việc giao hàng trễ theo từng khu vực hoặc danh mục sản phẩm, hay các thông tin về lợi nhuận trong quá trình kinh doanh để tiến hành một số phân tích sâu hơn và toàn diện hơn. Trong tương lai, chúng tôi sẽ tiếp tục cải thiện và bổ sung thêm dữ liệu để mang đến cái nhìn toàn diện hơn.
